@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&display=swap');
+
+:root {
+  font-family: 'Fredoka', 'Comic Sans MS', cursive, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #FFF9E6 0%, #E8F4F8 100%);
+}
+
+* {
+  box-sizing: border-box;
+}

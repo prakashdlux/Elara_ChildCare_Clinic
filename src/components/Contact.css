@@ -1,0 +1,118 @@
+.contact-section {
+    padding: 6rem 0;
+    background: linear-gradient(135deg, #FFF9E6 0%, #FFFFFF 100%);
+}
+
+.contact-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    align-items: start;
+    margin-top: 3rem;
+}
+
+.contact-info-card {
+    background: white;
+    padding: 3rem;
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+}
+
+.contact-info-card h3 {
+    font-size: 1.8rem;
+    color: var(--text-color);
+    margin-bottom: 1rem;
+}
+
+.contact-details {
+    margin-top: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.contact-detail-item {
+    display: flex;
+    gap: 1.5rem;
+    align-items: flex-start;
+}
+
+.icon-box {
+    background: #E0F7FA;
+    color: var(--secondary-color);
+    padding: 1rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-detail-item h4 {
+    margin: 0 0 0.5rem;
+    font-size: 1.1rem;
+    color: var(--text-color);
+}
+
+.contact-detail-item p {
+    margin: 0;
+    color: #666;
+}
+
+.cta-box {
+    margin-top: 3rem;
+    padding-top: 2rem;
+    border-top: 2px dashed #eee;
+    text-align: center;
+}
+
+.cta-button-large {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.75rem;
+    background: linear-gradient(135deg, var(--secondary-color), #6FE3DA);
+    color: white;
+    padding: 1.25rem 2.5rem;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    transition: transform 0.2s, box-shadow 0.2s;
+    box-shadow: 0 4px 12px rgba(78, 205, 196, 0.3);
+}
+
+.cta-button-large:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(78, 205, 196, 0.4);
+}
+
+.map-container {
+    height: 100%;
+    min-height: 500px;
+    border-radius: var(--radius);
+    overflow: hidden;
+    box-shadow: var(--shadow);
+    border: 8px solid white;
+}
+
+.map-placeholder {
+    width: 100%;
+    height: 100%;
+    background: #eee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #999;
+    font-weight: 600;
+}
+
+@media (max-width: 900px) {
+    .contact-wrapper {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+    .map-container {
+        min-height: 300px;
+    }
+}
