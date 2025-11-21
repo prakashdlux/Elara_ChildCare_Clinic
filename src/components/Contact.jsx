@@ -17,7 +17,7 @@ const Contact = () => {
                                 <div className="icon-box"><MapPin size={24} /></div>
                                 <div>
                                     <h4>Visit Us</h4>
-                                    <p>123 Care Street, Happy Valley, City - 560001</p>
+                                    <p>No.2, 1st & 2nd floor, 16th main , BTM layout 2nd stage , Bangalore - 560076.</p>
                                 </div>
                             </div>
 
@@ -25,7 +25,7 @@ const Contact = () => {
                                 <div className="icon-box"><Phone size={24} /></div>
                                 <div>
                                     <h4>Call Us</h4>
-                                    <p>+123 456 7890</p>
+                                    <p>+91-8618956349</p>
                                 </div>
                             </div>
 
@@ -33,7 +33,7 @@ const Contact = () => {
                                 <div className="icon-box"><Mail size={24} /></div>
                                 <div>
                                     <h4>Email Us</h4>
-                                    <p>info@elara.com</p>
+                                    <p>Shadowchildcarecentre@gmail.com</p>
                                 </div>
                             </div>
                         </div>
@@ -41,7 +41,7 @@ const Contact = () => {
                         <div className="cta-box">
                             <h4>Ready to start?</h4>
                             <a
-                                href="https://docs.google.com/forms/u/0/"
+                                href="https://docs.google.com/forms/d/e/1FAIpQLSebglSlwyreIa0IyZnBmmEbnkv_E__R60jLj2Pvk-JfegpUHw/viewform"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="cta-button-large"
@@ -54,7 +54,7 @@ const Contact = () => {
 
                     <div className="map-container">
                         <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.003673289868!2d77.5945627!3d12.9715987!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1670c9b44e6d%3A0xf8dfc3e8517e4fe0!2sBengaluru%2C%20Karnataka!5e0!3m2!1sen!2sin!4v1716300000000!5m2!1sen!2sin"
+                            src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3888.956522175095!2d77.60741007507546!3d12.91051598739929!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTLCsDU0JzM3LjkiTiA3N8KwMzYnMzYuMCJF!5e0!3m2!1sen!2sin!4v1763701560057!5m2!1sen!2sin"
                             width="100%"
                             height="100%"
                             style={{ border: 0 }}

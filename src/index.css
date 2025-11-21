@@ -6,6 +6,19 @@
   font-weight: 400;
 }
 
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 150px;
+  /* Account for sticky header height */
+}
+
+@media (max-width: 968px) {
+  html {
+    scroll-padding-top: 100px;
+    /* Smaller offset for mobile header */
+  }
+}
+
 body {
   margin: 0;
   min-width: 320px;
