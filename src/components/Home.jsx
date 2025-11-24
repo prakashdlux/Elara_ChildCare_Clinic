@@ -1,8 +1,21 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import './Home.css';
-import heroImage from '../assets/hero_image.png';
+import sliderImage1 from '../assets/slider_image_1.jpg';
+import sliderImage2 from '../assets/slider_image_2.jpg';
+import sliderImage3 from '../assets/slider_image_3.jpg';
 
 const Home = () => {
+    const [currentImageIndex, setCurrentImageIndex] = useState(0);
+    const images = [sliderImage1, sliderImage2, sliderImage3];
+
+    useEffect(() => {
+        const interval = setInterval(() => {
+            setCurrentImageIndex((prevIndex) => (prevIndex + 1) % images.length);
+        }, 4000);
+
+        return () => clearInterval(interval);
+    }, []);
+
     return (
         <section id="home" className="home-section">
             <div className="container">
@@ -18,7 +31,19 @@ const Home = () => {
                 </div>
                 <div className="hero-image-wrapper">
                     <div className="hero-image-container">
-                        <img src={heroImage} alt="Happy children playing in a magical environment" className="hero-image" />
+                        <div
+                            className="slider-track"
+                            style={{ transform: `translateX(-${currentImageIndex * 100}%)` }}
+                        >
+                            {images.map((img, index) => (
+                                <img
+                                    key={index}
+                                    src={img}
+                                    alt={`Slide ${index + 1}`}
+                                    className="hero-image"
+                                />
+                            ))}
+                        </div>
                         <div className="floating-shapes">
                             <span className="shape shape-1">⭐</span>
                             <span className="shape shape-2">🎈</span>
