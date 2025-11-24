@@ -25,7 +25,7 @@ const Contact = () => {
                                 <div className="icon-box"><Phone size={24} /></div>
                                 <div>
                                     <h4>Call Us</h4>
-                                    <p>+91-8618956349</p>
+                                    <p>+91 80156 29013</p>
                                 </div>
                             </div>
 
@@ -33,7 +33,7 @@ const Contact = () => {
                                 <div className="icon-box"><Mail size={24} /></div>
                                 <div>
                                     <h4>Email Us</h4>
-                                    <p>Shadowchildcarecentre@gmail.com</p>
+                                    <p>elarachildcarecentre@gmail.com</p>
                                 </div>
                             </div>
                         </div>

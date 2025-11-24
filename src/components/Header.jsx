@@ -13,11 +13,11 @@ const Header = () => {
                         <div className="contact-info">
                             <a href="tel:+1234567890" className="contact-item">
                                 <Phone size={16} />
-                                <span>+91-8618956349</span>
+                                <span>+91 80156 29013</span>
                             </a>
                             <a href="mailto:info@elara.com" className="contact-item">
                                 <Mail size={16} />
-                                <span>Shadowchildcarecentre@gmail.com</span>
+                                <span>elarachildcarecentre@gmail.com</span>
                             </a>
                             <div className="contact-item">
                                 <MapPin size={16} />
