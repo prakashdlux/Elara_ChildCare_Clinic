@@ -41,7 +41,7 @@ const Contact = () => {
                         <div className="cta-box">
                             <h4>Ready to start?</h4>
                             <a
-                                href="https://docs.google.com/forms/d/e/1FAIpQLSebglSlwyreIa0IyZnBmmEbnkv_E__R60jLj2Pvk-JfegpUHw/viewform"
+                                href="https://docs.google.com/forms/d/e/1FAIpQLScWKGtSPJpf1S8hivjIcUUVWBdiMus6_cQvy-5_YhD43y4KPw/viewform"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="cta-button-large"
