@@ -4,11 +4,10 @@ import sliderImage0 from '../assets/slider_image_0.jpg';
 import sliderImage1 from '../assets/slider_image_1.jpg';
 import sliderImage2 from '../assets/slider_image_2.jpg';
 import sliderImage3 from '../assets/slider_image_3.jpg';
-import sliderImage4 from '../assets/slider_image_4.jpg';
 
 const Home = () => {
     const [currentImageIndex, setCurrentImageIndex] = useState(0);
-    const images = [sliderImage0, sliderImage1, sliderImage2, sliderImage3, sliderImage4];
+    const images = [sliderImage0, sliderImage1, sliderImage2, sliderImage3];
 
     useEffect(() => {
         const interval = setInterval(() => {
